@@ -33,7 +33,7 @@ $tombol: #23c495;
 // style
 body {
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 // .slide0 {
@@ -152,6 +152,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 140vmin;
+  overflow: hidden;
   .container-fluid {
     height: 100%;
     align-items: center;

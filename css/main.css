@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
 body {
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .navbar {
@@ -148,6 +148,7 @@ body {
   background-size: cover;
   background-position: center;
   height: 140vmin;
+  overflow: hidden;
 }
 
 .showcase .container-fluid {
