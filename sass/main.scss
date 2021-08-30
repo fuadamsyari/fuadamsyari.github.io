@@ -32,8 +32,11 @@ $tombol: #23c495;
 
 // style
 html {
-  font-family: 'Poppins', sans-serif;
   overflow-x: hidden !important;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 // .slide0 {
@@ -174,6 +177,7 @@ html {
         width: 100%;
         background-size: cover;
         background-position: top;
+        cursor: move;
         display: flex;
         transition: 1s;
         align-items: flex-start;
